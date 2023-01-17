@@ -1,0 +1,41 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Sales Transaction Summary",
+   "width": "Half"
+  },
+  {
+   "chart": "Purchase Transaction Summary",
+   "width": "Half"
+  },
+  {
+   "chart": "Bank Balance Summary",
+   "width": "Half"
+  },
+  {
+   "chart": "Petty Cash Balance Summary",
+   "width": "Half"
+  },
+  {
+   "chart": "Debtors Balance Summary",
+   "width": "Half"
+  },
+  {
+   "chart": "Creditors Balance Summary",
+   "width": "Half"
+  }
+ ],
+ "creation": "2023-01-17 12:07:20.843124",
+ "dashboard_name": "ERPSuite",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2023-01-17 12:28:55.653789",
+ "modified_by": "Administrator",
+ "module": "ERPSuite",
+ "name": "ERPSuite",
+ "owner": "Administrator"
+}
