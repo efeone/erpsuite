@@ -1,0 +1,48 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">ERPSuite</span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Transaction Quick Entry\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Transaction Summary\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Business Unit\",\"col\":3}}]",
+ "creation": "2023-01-17 10:50:49.504104",
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "shortcut",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "ERPSuite",
+ "links": [],
+ "modified": "2023-01-17 12:02:43.017382",
+ "modified_by": "Administrator",
+ "module": "ERPSuite",
+ "name": "ERPSuite",
+ "owner": "admin@efeone.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 0.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Transaction Quick Entry",
+   "link_to": "Transaction Quick Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Business Unit",
+   "link_to": "Business Unit",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Transaction Summary",
+   "link_to": "Transaction Summary",
+   "type": "DocType"
+  }
+ ],
+ "title": "ERPSuite"
+}
