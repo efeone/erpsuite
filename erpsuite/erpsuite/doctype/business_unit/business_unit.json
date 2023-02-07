@@ -8,7 +8,10 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "business_unit"
+  "business_unit",
+  "total_staffs",
+  "staffs_section",
+  "staffs"
  ],
  "fields": [
   {
@@ -18,11 +21,29 @@
    "label": "Business Unit",
    "reqd": 1,
    "unique": 1
+  },
+  {
+   "fieldname": "staffs_section",
+   "fieldtype": "Section Break",
+   "label": "Staffs"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_staffs",
+   "fieldtype": "Int",
+   "label": "Total Staffs",
+   "read_only": 1
+  },
+  {
+   "fieldname": "staffs",
+   "fieldtype": "Table",
+   "label": "Staffs",
+   "options": "Business Unit Staff"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-01-17 10:52:54.254614",
+ "modified": "2023-02-07 13:14:53.177998",
  "modified_by": "Administrator",
  "module": "ERPSuite",
  "name": "Business Unit",

@@ -1,8 +1,12 @@
 # Copyright (c) 2023, efeone and contributors
 # For license information, please see license.txt
 
-# import frappe
+import frappe
 from frappe.model.document import Document
 
 class BusinessUnit(Document):
-	pass
+	def validate(self):
+		if self.staffs:
+			self.total_staffs = len(self.staffs)
+		else:
+			self.total_staffs = 0
