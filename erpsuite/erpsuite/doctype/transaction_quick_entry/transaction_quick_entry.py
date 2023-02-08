@@ -8,3 +8,8 @@ from frappe import _
 class TransactionQuickEntry(Document):
 	def validate(self):
 		frappe.throw(_('No Permision To Save!'))
+
+
+@frappe.whitelist()
+def create_transactions():
+	pass

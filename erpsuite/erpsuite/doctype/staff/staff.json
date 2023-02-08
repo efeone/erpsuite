@@ -8,13 +8,17 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "personal_details_tab",
   "enable",
   "first_name",
   "last_name",
-  "gender",
-  "column_break_ponxx",
+  "column_break_ohymf",
   "full_name",
+  "date_of_birth",
+  "gender",
+  "contact_details_tab",
   "mobile",
+  "column_break_f5zx3",
   "email"
  ],
  "fields": [
@@ -58,19 +62,38 @@
    "label": "Enable"
   },
   {
-   "fieldname": "column_break_ponxx",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "gender",
    "fieldtype": "Link",
    "label": "Gender",
    "options": "Gender"
+  },
+  {
+   "fieldname": "contact_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Contact Details"
+  },
+  {
+   "fieldname": "column_break_ohymf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "personal_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Personal Details"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "column_break_f5zx3",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-02-07 13:10:17.159950",
+ "modified": "2023-02-08 15:59:20.014905",
  "modified_by": "Administrator",
  "module": "ERPSuite",
  "name": "Staff",
