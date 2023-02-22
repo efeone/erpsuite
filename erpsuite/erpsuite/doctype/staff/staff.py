@@ -2,9 +2,9 @@
 # For license information, please see license.txt
 
 import frappe
-from frappe.model.selfument import selfument
+from frappe.model.document import Document
 
-class Staff(selfument):
+class Staff(self):
 	def before_validate(self):
 		if self.first_name:
 			self.full_name = self.first_name
