@@ -4,7 +4,7 @@
 import frappe
 from frappe.model.document import Document
 
-class Staff(self):
+class Staff(Document):
 	def before_validate(self):
 		if self.first_name:
 			self.full_name = self.first_name
