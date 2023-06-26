@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "SA.#####",
+ "creation": "2023-06-21 12:40:45.752102",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "business_unit",
+  "staff",
+  "staff_name",
+  "checkin_date_and_time",
+  "checkin",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fetch_from": "staff.full_name",
+   "fieldname": "staff_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Staff Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Staff Attendence",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "checkin",
+   "fieldtype": "Select",
+   "label": "Checkin",
+   "options": "\nIN\nOUT"
+  },
+  {
+   "fieldname": "business_unit",
+   "fieldtype": "Link",
+   "label": "Business Unit",
+   "options": "Business Unit"
+  },
+  {
+   "fetch_from": "amended_from.staff_name",
+   "fieldname": "staff",
+   "fieldtype": "Link",
+   "label": "Staff",
+   "options": "Staff"
+  },
+  {
+   "default": "Now",
+   "fieldname": "checkin_date_and_time",
+   "fieldtype": "Datetime",
+   "label": "Checkin Date & Time",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-06-23 13:03:32.347390",
+ "modified_by": "Administrator",
+ "module": "ERPSuite",
+ "name": "Staff Attendence",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

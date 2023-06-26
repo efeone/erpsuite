@@ -19,7 +19,8 @@
   "contact_details_tab",
   "mobile",
   "column_break_f5zx3",
-  "email"
+  "email",
+  "business_unit"
  ],
  "fields": [
   {
@@ -89,11 +90,17 @@
   {
    "fieldname": "column_break_f5zx3",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "business_unit",
+   "fieldtype": "Link",
+   "label": "Business Unit",
+   "options": "Business Unit"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-02-08 15:59:20.014905",
+ "modified": "2023-06-21 15:39:06.498372",
  "modified_by": "Administrator",
  "module": "ERPSuite",
  "name": "Staff",
