@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-21 12:50:47.725549",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "business_unit",
+  "staff",
+  "branch",
+  "salary_date_time",
+  "monthly_salary",
+  "account_type",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Branch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "account_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Account type",
+   "options": "\nCash\nDebit/Credit Card\nCheck\nUPI",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Payment Details",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "business_unit",
+   "fieldtype": "Link",
+   "label": "Business unit",
+   "options": "Business Unit"
+  },
+  {
+   "fieldname": "staff",
+   "fieldtype": "Link",
+   "label": "Staff",
+   "options": "Staff"
+  },
+  {
+   "fieldname": "monthly_salary",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Monthly Salary",
+   "reqd": 1
+  },
+  {
+   "fieldname": "salary_date_time",
+   "fieldtype": "Datetime",
+   "label": " Salary Date Time",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-06-26 11:08:01.595154",
+ "modified_by": "Administrator",
+ "module": "ERPSuite",
+ "name": "Payment Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
